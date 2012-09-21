@@ -31,11 +31,9 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 /**
- * This is where the magic happens.  The most difficult class to make was the
- * WatchActivity.  This activity is in charge of managing the MediaPlayer and
- * the associated player controls.  If the device has external storage enabled
- * the activity will begin to download the video file as a buffer.  If no storage
- * is available the activity simply uses the built-in buffer on the MediaPlayer.
+ * This is where the magic happens.  This class is in charge of managing the MediaPlayer
+ * and the associated player controls.  Feedback is sent to the parent class via the 
+ * state change listener.
  * 
  * @author Saul Howard
  *
